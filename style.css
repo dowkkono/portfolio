@@ -1,15 +1,15 @@
 body {
     font-family: courier, monospace;
     color:rgba(247, 241, 228, 0.733);
-    background: linear-gradient(45deg, black 60%, rgb(250, 100, 0));;
+    background: radial-gradient(circle, black 80%, rgb(250, 100, 0));;
 }
 
 .align {
     text-align: center;
 }
 
-nav {
-
+nav a {
+    color:rgb(250, 100, 0);
 }
 
 nav li {
@@ -18,7 +18,11 @@ nav li {
     text-align: center;
     flex-grow: 1;
     padding-bottom: 30px;
-    margin: 50px
+    margin: 50px;
+}
+
+nav li:hover {
+    transform: scale(2,2);
 }
 
 h1 {
@@ -39,10 +43,23 @@ h1:hover {
     transform: scale(4,4);
 }
 
+#dowkkono {
+    padding: 20px;
+}
+
 #contacts {
     padding: 20px;
     margin: 50px;
 }
 
+div a {
+    color:rgb(250, 100, 0);
+}
+
 footer {
+    bottom: 2px;
+    padding-bottom: 2px;
+    padding-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }

@@ -47,13 +47,16 @@ h1:hover {
     padding: 20px;
 }
 
+h2:hover {
+    transform: scale(2,2);
+}
+
+section a {
+    color: rgba(247, 241, 228, 0.733);
+}
 #contacts {
     padding: 20px;
     margin: 50px;
-}
-
-div a {
-    color:rgb(250, 100, 0);
 }
 
 footer {

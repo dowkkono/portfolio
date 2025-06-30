@@ -25,7 +25,7 @@ nav li:hover {
     transform: scale(2,2);
 }
 
-h1 {
+#color {
     padding-bottom: 10px;
     margin-bottom: 10px;
     animation-name: colorchg;
